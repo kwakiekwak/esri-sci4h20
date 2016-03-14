@@ -1,0 +1,64 @@
+/* log in page */
+.logPage {
+  height: 50em;
+}
+.login {
+  margin: 5% auto;
+  background: url('../images/uganda1.jpg');
+  background-size: cover;
+  height: 100%;
+  border: 5px solid black;
+}
+.jumbotron {
+  opacity: .7;
+}
+.login-info {
+  margin: 25% 5%;
+  border: 3px solid black;
+}
+
+/* NAVBAR of Water Main Page */
+header {
+  height: 6em;
+}
+.header {
+  background-color: rgba(255, 255, 255, .6);
+}
+ul li {
+  display: inline-block;
+  font-size: 2em;
+  font-weight: bold;
+  float: right;
+  margin: auto 2%;
+}
+.nav-bar {
+  text-decoration: none;
+}
+.nav-bar:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+.grow {
+  -webkit-transition:all 0.5s ease-out;
+  -moz-transition:all 0.5s ease-out;
+  -ms-transition:all 0.5s ease-out;
+  -o-transition:all 0.5s ease-out;
+  transition:all 0.5s ease-out;
+}
+.grow:hover {
+  -webkit-transform:scale(1.5);
+  -moz-transform:scale(1.5);
+  -ms-transform:scale(1.5);
+  -o-transform:scale(1.5);
+  transform:scale(1.5);
+}
+
+/* Water Main Page */
+.container-background {
+  height: 45em;
+}
+.background {
+  background: url('../images/car1.jpg');
+  background-size: cover;
+  height: 100%;
+}
