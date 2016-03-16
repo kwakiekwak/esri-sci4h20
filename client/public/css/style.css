@@ -62,3 +62,42 @@ ul li {
   background-size: cover;
   height: 100%;
 }
+.sci {
+  margin: 8% auto;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, .5);
+}
+.sci h1 {
+  color: white;
+}
+.title1, .title2{
+  margin-left: 5%;
+  font-weight: bold;
+  color: #2196f3;
+}
+.title {
+  font-size: 3em;
+}
+
+/* Water Main Page - Clean */
+.mid-container {
+  background-color: aliceblue;
+}
+.clean {
+  height: 300px;
+  width: 300px;
+  background: url('../images/india1.jpg');
+  background-size: cover;
+}
+.clean-image {
+}
+
+/* carousel */
+#slides_control > div{
+
+}
+img{
+}
+#slides_control {
+
+}

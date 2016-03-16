@@ -15,7 +15,9 @@ function MainRouter($stateProvider, $urlRouterProvider) {
     })
     .state("mainPage", {
       url: "/home",
-      templateUrl: "views/templates/water.html"
+      templateUrl: "views/templates/water.html",
+      controller: 'MainController',
+      controllerAs: 'main'
     })
 
     // .state('/login', {
